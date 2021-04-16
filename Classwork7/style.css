@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.contentWrapper {
+  position: relative;
+  overflow: hidden;
+
+  width: 100%;
+  height: 850px;
+}
+
+.contentWrapper h2 {
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 36px;
+}
+
+.contentWrapper p {
+  margin-top: 22px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 26px;
+}
+
+.textContainer {
+  width: 580px;
+}
+
+.imageContainer {
+  background-size: cover;
+}
+
+#section-1 .textContainer {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+#section-1-image {
+  position: absolute;
+  top: 50px;
+  left: 729px;
+
+  width: 1161px;
+  height: 666px;
+  background-image: url("./narkomfin1.png");
+}
