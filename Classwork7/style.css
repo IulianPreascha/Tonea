@@ -1,6 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-body.landing {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #1a0dab;
+}
+
+a:visited {
+  color: #660099;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
+span {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,12 +47,14 @@ body.landing {
 
 .contentWrapper h2 {
   font-family: "PT Sans Caption", sans-serif;
+  font-weight: 700;
   font-size: 36px;
 }
 
 .contentWrapper p {
   margin-top: 22px;
   font-family: "PT Sans", sans-serif;
+  font-weight: 400;
   font-size: 26px;
 }
 
@@ -30,22 +62,30 @@ body.landing {
   width: 580px;
 }
 
+.textContainer a:last-child {
+  text-decoration: underline;
+}
+
 .imageContainer {
   background-size: cover;
 }
 
+#section-1 {
+  display: flex;
+  align-items: center;
+}
+
 #section-1 .textContainer {
   position: absolute;
-  top: 20px;
   left: 120px;
 }
 
 #section-1-image {
   position: absolute;
-  top: 50px;
   left: 729px;
 
   width: 1161px;
   height: 666px;
   background-image: url("./narkomfin1.png");
+  background-repeat: no-repeat;
 }
