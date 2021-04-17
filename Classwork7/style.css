@@ -30,6 +30,19 @@ span {
   text-decoration: underline;
 }
 
+h2 {
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+p {
+  margin-top: 22px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -38,27 +51,17 @@ body {
 }
 
 .contentWrapper {
+  display: flex;
+  align-items: center;
   position: relative;
   overflow: hidden;
-
   width: 100%;
   height: 850px;
 }
 
-.contentWrapper h2 {
-  font-family: "PT Sans Caption", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-}
-
-.contentWrapper p {
-  margin-top: 22px;
-  font-family: "PT Sans", sans-serif;
-  font-weight: 400;
-  font-size: 26px;
-}
-
 .textContainer {
+  position: absolute;
+  left: 120px;
   width: 580px;
 }
 
@@ -66,21 +69,8 @@ body {
   text-decoration: underline;
 }
 
-.imageContainer {
+#imageContainer {
   background-size: cover;
-}
-
-#section-1 {
-  display: flex;
-  align-items: center;
-}
-
-#section-1 .textContainer {
-  position: absolute;
-  left: 120px;
-}
-
-#section-1-image {
   position: absolute;
   left: 729px;
 
