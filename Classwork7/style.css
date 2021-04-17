@@ -3,9 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-a {
   text-decoration: none;
 }
 
@@ -41,13 +38,6 @@ p {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 26px;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow-x: hidden;
 }
 
 .contentWrapper {
