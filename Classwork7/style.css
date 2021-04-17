@@ -55,17 +55,16 @@ p {
   width: 580px;
 }
 
-.textContainer a:last-child {
+.textContainer p:last-child > a:last-child {
   text-decoration: underline;
 }
 
 #imageContainer {
-  background-size: cover;
   position: absolute;
   left: 729px;
-
   width: 1161px;
   height: 666px;
   background-image: url("./narkomfin1.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
