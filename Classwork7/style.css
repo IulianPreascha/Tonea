@@ -6,22 +6,6 @@
   text-decoration: none;
 }
 
-a:link {
-  color: #1a0dab;
-}
-
-a:visited {
-  color: #660099;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  color: red;
-}
-
 span {
   font-style: italic;
   text-decoration: underline;
@@ -55,10 +39,6 @@ p {
   width: 580px;
 }
 
-.textContainer p:last-child > a:last-child {
-  text-decoration: underline;
-}
-
 #imageContainer {
   position: absolute;
   left: 729px;
@@ -67,38 +47,4 @@ p {
   background-image: url("./narkomfin1.png");
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-@media (max-width: 767px) and (orientation: portrait) {
-  .contentWrapper {
-    flex-direction: column;
-    height: 800px;
-    margin-top: -50px;
-  }
-
-  .contentWrapper h2 {
-    font-size: 18px;
-    line-height: 23px;
-  }
-
-  .contentWrapper p {
-    margin-top: 12px;
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  .textContainer {
-    width: 300px;
-    top: 100px;
-    left: calc((100vw - 300px) / 2);
-  }
-
-  #imageContainer {
-    top: 500px;
-    left: 1px;
-    right: 1px;
-
-    width: calc(100vw - 1px);
-    height: 350px;
-  }
 }
