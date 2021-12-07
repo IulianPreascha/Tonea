@@ -31,6 +31,11 @@ html, body {
 
 /* ===================================================== */
 
+@font-face {
+    font-family: pixel;
+    src: url(./common-pixel-cdnfonts/COMMP___.TTF);
+  }
+
 
 body {
     background-color: #000;
@@ -54,7 +59,7 @@ body {
 
 .about h1 {
     color: #fff;
-    font-family: 'Common Pixel', sans-serif;
+    font-family: pixel;
     text-align: center;
     font-size: 32px;
     margin-top: 54%;
