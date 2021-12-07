@@ -32,12 +32,6 @@ html, body {
 /* ===================================================== */
 
 
-@font-face {
-    font-family: pixel;
-    src: url(./pixograd-font/Pixograd-nKdM.ttf);
-}
-
-
 body {
     background-color: #000;
     margin: 0 auto;
@@ -60,10 +54,12 @@ body {
 
 .about h1 {
     color: #fff;
-    font-family: pixel;
+    font-family: 'Common Pixel', sans-serif;
     text-align: center;
-    font-size: 28px;
-    margin-top: 50%;
+    font-size: 32px;
+    margin-top: 54%;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .about img {
